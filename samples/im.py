@@ -1,7 +1,7 @@
 import subprocess
 import os
-from graphs.py import graphs
-
+from graphs import graphs
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 k=100
 R=256
 if __name__ == '__main__':
