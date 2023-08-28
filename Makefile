@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -g -Wall -Wextra -O3
+CXXFLAGS = -g -Wall -Wextra -O3 -lpthread
 
 all: benchmark
 
